@@ -1,0 +1,13 @@
+venv
+venv/
+venv/*
+./venv
+./venv/
+./venv/*
+
+
+migrations/
+*.pyc
+
+venv/
+.idea/
