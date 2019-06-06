@@ -22,6 +22,7 @@ class Profile(models.Model):
                                    default='')
     type = models.CharField(max_length=3, choices=[(tag.name, tag.value) for tag in UserType], default='')
     verified = models.BooleanField(default=False)
+    department = models.CharField(max_length=30, default="ISRO RRSSC-W")
 
     class Meta:
         permissions = (
